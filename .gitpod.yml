@@ -14,9 +14,3 @@ vscode:
     - ms-toolsai.jupyter
     - ms-toolsai.jupyter-keymap
     - ms-toolsai.jupyter-renderers
-ports:
-     - port: 8080
-       onOpen: ignore
-   tasks:
-     - name: Serve 404 Page
-       init: http-server -p 8080 -d ./
